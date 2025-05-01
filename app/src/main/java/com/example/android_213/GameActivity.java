@@ -550,7 +550,7 @@ public class GameActivity extends AppCompatActivity {
                         ),
                         PorterDuff.Mode.SRC_ATOP
                 );
-                tvTiles[i][j].setTextSize(32.0f); // TODO: рассчитать зависимость от клеточки
+                tvTiles[i][j].setTextSize(32.0f);
                 // проверяем, есть ли анимация для данной клеточки
                 Object animTag = tvTiles[i][j].getTag();
                 if (animTag instanceof Animation) {
